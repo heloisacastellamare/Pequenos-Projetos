@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family:  "Outfit", sans-serif;
+  background-color: papayawhip;
+  font-size: 17px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  line-height: 2.0;
+}
+ img{
+  width: 290px;
+  height: 200px;
+  border-radius: 5px;
+ }
+
+ h1,h2{
+  color: rgb(116, 46, 14);
+ }
+
+h3{
+  color: rgb(160, 64, 19);
+}
+
+.tempo-de-preparo{
+  max-width: 1200px;
+  padding: 20px;
+  background-color: rgb(252, 248, 243);
+  border-radius: 8px;
+  list-style: inside;
+  
+}
+
+.ingredientes{
+  list-style: inside;
+}
+
+table{
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.unidades{
+  color: rgb(116, 46, 14);
+  font-weight: 700;
+}
+
+tr:nth-child(even){
+  background-color: rgb(253, 233, 200);
+}
